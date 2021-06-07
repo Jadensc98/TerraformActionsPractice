@@ -10,6 +10,8 @@ Pull requests required before terraform apply/plan: https://github.com/dflook/te
 
 Possible helpful video: https://www.youtube.com/watch?v=OXE2a8dqIAI
 
+Deploying a docker container image to an EC2 image: https://klotzandrew.com/blog/deploy-an-ec2-to-run-docker-with-terraform
+
 Example of linting through terraform:
 
 Lint.yaml
