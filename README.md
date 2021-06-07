@@ -9,8 +9,8 @@ Added the AWS Secret Keys to the repo
 Pull requests required before terraform apply/plan: https://github.com/dflook/terraform-github-actions/tree/master/terraform-apply
 
 Example of linting through terraform:
-name: Lint
 
+<pre><code>name: Lint
 on:
   push:
     branches:
@@ -40,6 +40,7 @@ jobs:
         uses: dflook/terraform-fmt-check@v1
         with:
           path: my-terraform-config
+</code></pre>
 
 Checking for drift
 
