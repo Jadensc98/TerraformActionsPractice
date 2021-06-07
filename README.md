@@ -10,7 +10,10 @@ Pull requests required before terraform apply/plan: https://github.com/dflook/te
 
 Example of linting through terraform:
 
+Lint.yaml
+
 <pre><code>name: Lint
+
 on:
   push:
     branches:
@@ -46,8 +49,10 @@ Checking for drift
 
 This workflow runs every morning and checks that the state of your infrastructure matches the configuration.
 This can be used to detect manual or misapplied changes before they become a problem. If there are any unexpected changes, the workflow will fail.
-          drift.yaml
 
+Drift.yaml
+
+<pre><code>
           name: Check for infrastructure drift
 
           on:
@@ -66,3 +71,4 @@ This can be used to detect manual or misapplied changes before they become a pro
                   uses: dflook/terraform-check@v1
                   with:
                     path: my-terraform-config
+</code></pre>
