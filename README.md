@@ -8,6 +8,8 @@ Added the AWS Secret Keys to the repo
 
 Pull requests required before terraform apply/plan: https://github.com/dflook/terraform-github-actions/tree/master/terraform-apply
 
+Possible helpful video: https://www.youtube.com/watch?v=OXE2a8dqIAI
+
 Example of linting through terraform:
 
 Lint.yaml
